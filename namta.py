@@ -1,6 +1,6 @@
 import streamlit as st
 st.header('এইখানে যেকোনো নাম্বার দিলে ১০ পর্যন্ত তার নামতা বের হবে :)')
-a = st.text_input('এইখানে আপনামড় নাম্বার টি দেনঃ')
+a = st.text_input('এইখানে আপনার নাম্বার টি দেনঃ')
 if a :
     a=int(a)
 if a:
@@ -14,5 +14,6 @@ if a:
 
 
 
-
+st.text('made by')
 st.text('-mr.arik7')
+
